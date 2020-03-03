@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfAppPCFactory.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppPCFactory"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="HomePC" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="163,319,0,0" Click="ButtonHomePC_Click"/>
+        <Button Content="GamePC" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="322,319,0,0" Click="ButtonGamePC_Click"/>
+        <Button Content="WokrPC" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="494,319,0,0" Click="ButtonWorkPC_Click"/>
+        <TextBox x:Name="txtPCConfiguration" HorizontalAlignment="Left" Height="199" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="354" Margin="145,67,0,0" />
+
+
+    </Grid>
+</Window>
